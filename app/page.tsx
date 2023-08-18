@@ -1,6 +1,7 @@
 "use client"
-import { useAppSelector } from "@/redux/store"
+import { useAppSelector } from "../redux/store"
 import Login from "./auth/login/login"
+import React from "react"
 
 export default function Home() {
   const username = useAppSelector((state) => state.authReducer.value.username)

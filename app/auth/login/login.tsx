@@ -2,7 +2,7 @@
 import React, { useState } from "react"
 import { useDispatch } from "react-redux"
 import { logIn, logOut, toggleMod } from "../../../redux/features/auth-slice"
-import { AppDispatch, useAppSelector } from "@/redux/store"
+import { AppDispatch, useAppSelector } from "../../../redux/store"
 
 const Login = () => {
   const [username, setUsername] = useState<string>("")
